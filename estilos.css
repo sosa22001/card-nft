@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(25, 25, 58);
+}
+.img-1 {
+    padding-top: 20px;
+    align-self: center;
+    width: 250px;
+    border-radius: 10px 10px 10px 10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(10, 44, 75);
+    width: 320px;
+    height: 550px;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 20px 20px 10px rgb(10, 10, 36);
+}
+h1 {
+    color:white;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inicio {
+    margin-top: 10px;
+    align-self: center;
+    width: 250px;
+}
+.inicio p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.36);
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.content-footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    justify-content: space-between;
+}
+#icon-gema {
+    margin-top: 22px;
+    margin-right: 10px;
+    height: 17px;
+}
+#izq {
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+}
+#der {
+    display: flex;
+    flex-direction: row;
+}
+#clock {
+    margin-top: 23px;
+    margin-right: 10px;
+    height: 17px;
+}
+hr {
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.408);
+}
+#eth {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 23px;
+    font-size: 14px;
+    color:aqua;
+}
+#temp {
+    margin-top: 23px;
+    color: rgba(255, 255, 255, 0.311);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.content-avatar {
+    margin: 10px auto;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+}
+#avatar {
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.text-1 {
+    color:rgba(255, 255, 255, 0.373);
+}
+.text-2 {
+    color: white;
+}
+.attribution { 
+    margin-top: 50px;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
